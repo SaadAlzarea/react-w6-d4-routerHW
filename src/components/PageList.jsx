@@ -64,8 +64,3 @@ function Nav() {
 }
 
 export default Nav;
-// <ul>
-//   <Link to="home">
-//     <li>Home</li>
-//   </Link>
-// </ul>
