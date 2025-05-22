@@ -1,5 +1,3 @@
-
-
 function Mountain() {
   return (
     <div className="h-screen bg-cover bg-center bg-[url(https://images.pexels.com/photos/2618804/pexels-photo-2618804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)]">

@@ -1,5 +1,3 @@
-
-
 function Rivers() {
   return (
     <div className="h-screen bg-cover bg-center bg-[url(https://images.pexels.com/photos/2438/nature-forest-waves-trees.jpg)]">

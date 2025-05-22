@@ -1,5 +1,3 @@
-
-
 function Ocean() {
   return (
     <div className="h-screen bg-cover bg-center bg-[url(https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)]">

@@ -1,5 +1,3 @@
-
-
 function Sea() {
   return (
     <div className="h-screen bg-cover bg-center bg-[url(https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg)]">

@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 import PageList from "../components/PageList";
 
-import Rivers from "../pages/Rivers"
+import Rivers from "../pages/Rivers";
 import Forest from "../pages/Forest";
 import Desert from "../pages/Desert";
 import Ocean from "../pages/Ocean";
@@ -23,21 +23,18 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout />,
     children: [
-        {path: "desert", element: <Desert/>},
-        {path: "ocean", element: <Ocean/>},
-        {path: "sea", element: <Sea/>},
-        {path: "forest", element: <Forest/>},
-        {path: "mountain", element: <Mountain/>},
-        {path: "rivers", element: <Rivers/>}
-    ] 
+      { path: "desert", element: <Desert /> },
+      { path: "ocean", element: <Ocean /> },
+      { path: "sea", element: <Sea /> },
+      { path: "forest", element: <Forest /> },
+      { path: "mountain", element: <Mountain /> },
+      { path: "rivers", element: <Rivers /> },
+    ],
   },
 ]);
 
-
 function Router() {
-  return (
-        <RouterProvider router={router} />
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default Router
+export default Router;
