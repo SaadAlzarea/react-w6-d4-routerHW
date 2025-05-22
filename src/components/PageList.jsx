@@ -5,7 +5,7 @@ function Nav() {
     <div className="flex flex-col justify-center w-full items-center bottom-0 fixed">
       <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 p-5 w-full ">
         <div>
-          <Link to="desert">
+          <Link to="/">
             <div className="rounded-2xl border bg-cover bg-bottom bg-[url(https://images.pexels.com/photos/1352196/pexels-photo-1352196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)]">
               <p className="flex items-center text-3xl font-medium shadow-neutral-700 text-white h-20 m-3">
                 Desert

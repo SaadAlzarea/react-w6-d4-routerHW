@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Layout />,
     children: [
-      { path: "desert", element: <Desert /> },
+      { path: "/", element: <Desert /> },
       { path: "ocean", element: <Ocean /> },
       { path: "sea", element: <Sea /> },
       { path: "forest", element: <Forest /> },
